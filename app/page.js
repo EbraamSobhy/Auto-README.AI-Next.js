@@ -39,9 +39,9 @@ export default function Home() {
     } 
 
   return (
-    <main>
-    <div className="flex items-center justify-center px-4 py-20">
-        <div className="w-full max-w-md bg-white rounded-xl shadow-lg p-8 border-4 mt-10">
+    <main className="min-h-screen bg-[#005B96] relative overflow-hidden">
+    <div className="flex items-center justify-center px-4 py-30">
+        <div className="w-full max-w-md bg-gray-50 rounded-xl shadow-lg p-8 border-4 mt-10">
           <div className="text-center mb-8">
             <h1 className="text-2xl font-bold text-gray-900">Generate README</h1>
             <p className="mt-2 text-gray-600">Enter your repository URL to get started</p>
